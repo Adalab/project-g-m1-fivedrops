@@ -1,0 +1,75 @@
+.wya-container{
+    margin: 0 15px;
+    text-align: center;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+@media all and (min-width:768px){
+    .wya-container{
+        margin:0 45px;
+        background-color: blueviolet;
+    }
+
+    .wya-adalaber{
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+    
+    .wya-container-bio-adalaber{
+        align-items: center;
+    }
+    
+
+    
+}
+
+
+.wya-title{
+    color: #099d8d;
+}
+
+.wya-adalabers{
+    list-style: none;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.wya-adalaber{
+    align-items: center;
+    justify-content: center;
+}
+
+.wya-img-adalaber{
+    width: 180px;
+    height: 180px;;
+}
+
+.wya-name-adalaber{
+    color: black;
+}
+
+.wya-bio-adalaber{
+    align-items: center;
+    color:#54585a;
+    bottom: 30px;
+}
+
+.wya-social-networks{
+    padding: 0;
+    padding-bottom: 50px; 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #099d8d;
+    justify-content: center;
+    
+}
+
+.wya-social-network{
+    flex-direction: column;
+    color: #099d8d;
+    padding: 10px;
+    justify-content: center;
+}

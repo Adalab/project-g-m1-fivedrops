@@ -1,0 +1,93 @@
+
+
+
+.team-background {
+    background: white;
+    margin: auto;
+    padding: 90, 15, 15, 30;  
+    text-align: center; 
+} 
+
+.team-title {
+    width: 89px;
+    height: 45px;
+    margin: auto; 
+    padding: 70px;
+}
+
+.team-h2 {
+    color: aqua; 
+    text-align: center;
+    font-size: 24px; 
+    padding-top: 20px;
+    padding-bottom: 15px; 
+    font-family:'Rubik', sans-serif; 
+}
+
+.team-p {
+    text-align: center; 
+    font-size: 16px;
+    margin: 15px; 
+    border-block-end: 30px;
+    font-family:'Open Sans';
+    padding-bottom: 30px; 
+}
+
+
+.sw-h3 {
+    color:#099d8d; 
+    text-align: center; 
+    font-family:'Rubik', sans-serif; 
+    margin-top: 20px; 
+    padding-top: 20px; 
+}
+
+
+.sw-text {
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+    font-family:'Open Sans';
+}
+
+.sw-background { 
+    background-color: rgba(184,184,185, 0.2);
+    margin: auto;  
+    padding: 75, 15, 15, 45;
+}
+
+
+.strengths {
+    margin: auto;
+    text-align: center;
+}
+
+.weaknesses {
+    margin: auto;
+    text-align: center;
+}
+
+.team-detail {  
+    background-color: rgb(255, 255, 255); 
+    width: 27px;
+    height: 27px; 
+    transform: translateY(110%) rotate(45deg); 
+    margin: auto;     
+}
+
+@media all and (min-width:768px) {
+    .sw-background {
+        display:flex; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+        position: relative;
+    }
+    
+    .team-detail {  
+        z-index: 1;
+        position: relative;
+        background-color: white; 
+        transform: translateY(62%) rotate(45deg); 
+    }
+}
+

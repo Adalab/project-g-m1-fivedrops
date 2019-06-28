@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+ /*  background-color: red; */
+}
+
+.hero-section {
+  background: no-repeat;
+  background-image: url("/images/campus1.jpg");
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-claim {
+  background:white;
+  height: 70px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transform: translateY(65%);
+  text-align: center;
+}
+

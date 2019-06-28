@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  body {
+    position: relative; 
+    top: 90px; 
+    
+}
+
+.header {
+    position: fixed;  
+    width: 100vw; 
+    z-index:1;
+    top: 0; 
+    left: 0; 
+}
+
+
+.header-h1 {
+       background-color: #099d8d;
+            opacity: 0.95; 
+            font-family: 'Rubik', sans-serif;
+            font-size: 16px;
+            color: white; 
+            padding: 15px 0;
+            line-height: 30px; 
+            text-align: center;     
+}
+
+    .header-nav {
+                background-color: #14d9c4; 
+                opacity: 0.90; 
+                font-family: 'Rubik', sans-serif;
+                font-size: 15px; 
+                color: white; 
+                line-height: 30px; 
+                display: flex; 
+                text-align: center; 
+                justify-content: center; 
+
+}
+
+                .header-nav-ul {
+                    list-style: none; 
+                }
+
+                .header-nav-link {
+                    color: white; 
+                    text-decoration: none;
+                    font-weight: bold; 
+                    margin-right: 20px;   
+                }
+
+                .header-nav-link:last-child {
+                    margin-right: 0;
+                }
+
+@media all and (min-width:550px){
+    .header {
+        display: flex; 
+        flex-wrap: wrap; 
+        background: #099d8d; 
+        justify-content: space-between; 
+       
+         
+    }
+
+    .header-nav{
+        background-color:  #099d8d; 
+        align-items: center; 
+        margin-right:45px;
+        
+        }
+
+        .header-h1{
+            margin-left:45px;
+        }
+   }
+
+
+.footer { 
+    font-size: 14px;
+    text-align: center; 
+    color:#b8b8b9;
+    font-family: 'Open Sans', sans-serif;
+  
+    /* top: 100;  */
+    
+    
+}
+.footer-nav-ul {
+    list-style: none;
+}
+
+.footer-link-a {
+    color: #54585a;
+    text-decoration: none; 
+    font-weight: bold;
+    display: block;
+    
+}
+
+
+.footer-links {
+    padding-top: 20px; 
+    padding-bottom: 30px; 
+}
+
+.footer-logo {
+    height:45px; 
+    width: 115,9px; 
+}
+
+
