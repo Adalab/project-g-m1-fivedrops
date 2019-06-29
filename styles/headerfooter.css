@@ -19,7 +19,7 @@
 
 
 .header-h1 {
-       background-color: #099d8d;
+            background-color: #099d8d;
             opacity: 0.95; 
             font-family: 'Rubik', sans-serif;
             font-size: 16px;
@@ -47,6 +47,10 @@
                     display: flex; 
                 }
 
+                .header-nav-li{
+                    margin-right:20px;
+                }
+
                 .header-nav-link {
                     color: white; 
                     text-decoration: none;
@@ -54,11 +58,11 @@
                     margin-right: 20px;   
                 }
 
-                .header-nav-link:last-child {
+                .header-nav-li:last-child {
                     margin-right: 0;
                 }
 
-@media all and (min-width:550px){
+@media all and (min-width:480px){
     .header {
         display: flex; 
         flex-wrap: wrap; 
@@ -72,8 +76,12 @@
         background-color:  #099d8d; 
         align-items: center; 
         margin-right:45px;
-        
         }
+
+        .header-nav-li{
+        margin-right: 20px;
+        }
+
 
         .header-h1{
             margin-left:45px;
@@ -86,32 +94,39 @@
     text-align: center; 
     color:#b8b8b9;
     font-family: 'Open Sans', sans-serif;
-  
+    
     /* top: 100;  */
-    
-    
 }
+
+
 .footer-nav-ul {
     list-style: none;
+    margin-top: 20px;
 }
 
 .footer-link-a {
     color: #54585a;
     text-decoration: none; 
     font-weight: bold;
-    display: block;
+
     
 }
 
 
 .footer-links {
-    padding-top: 20px; 
-    padding-bottom: 30px; 
+    margin-top: 20px; 
+    margin-bottom: 30px; 
 }
 
 .footer-logo {
     height:45px; 
     width: 115,9px; 
 }
+/* se pone así el logo en el footer? */
 
+@media all and (min-width:480px) {
+    .footer{
+  
+    }
 
+}
