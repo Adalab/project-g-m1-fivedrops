@@ -1,24 +1,46 @@
 body {
   margin: 0;
- /*  background-color: red; */
 }
 
-.hero-section {
-  background: no-repeat;
-  background-image: url("/images/campus1.jpg");
+.hero__background {
+  background-image: url(campus1.jpg);
+  background-size: cover;
+  width: 100%;
   height: 400px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-end; 
 }
 
-.hero-claim {
-  background:white;
+.hero__claimbox {
+  background-color: white;
   height: 70px;
   padding: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  transform: translateY(65%);
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  transform: translateY(50%);
+}
+
+.hero__claim {
+  font-family: sans-serif;
   text-align: center;
 }
 
+/* MEDIAQUERIE TABLET */
+@media all and (min-width: 768px) {
+  .hero__background {
+      justify-content: left;
+  }
+  .hero__claimbox {
+      transform: translateY(0%);
+      margin-left: 50px;
+  }
+}
+
+/* MEDIAQUERIE DESKTOP */
+@media all and (min-width: 1200px) {
+  .hero__claimbox {
+      margin-left: 140px;
+  }
+}
