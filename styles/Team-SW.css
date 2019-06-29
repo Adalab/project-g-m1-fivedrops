@@ -82,12 +82,21 @@
         text-align: center;
         position: relative;
     }
+    .sw-text-tablet-weaknesses {
+        padding-left: 65px;
+    }
+    .sw-text-tablet-strengths{
+        padding-right: 0px; 
+    }
+    .sw-h3 {
+        padding-left: 40px; 
+    }
     
     .team-detail {  
         z-index: 1;
         position: relative;
         background-color: white; 
-        transform: translateY(62%) rotate(45deg); 
+        transform: translateY(53%) rotate(45deg); 
     }
 }
 
