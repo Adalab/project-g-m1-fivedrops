@@ -1,27 +1,7 @@
 .wya-container{
-    margin: 0 15px;
+    margin: 30px 15px;
     text-align: center;
     /* font-family: 'Open Sans', sans-serif; */
-}
-
-@media all and (min-width:768px){
-    .wya-container{
-        margin:0 45px;
-        background-color: blueviolet;
-    }
-
-    .wya-adalaber{
-        display: flex;
-        flex-wrap: wrap;
-        /* align-items: center; */
-    }
-    
-    .wya-container-bio-adalaber{
-        align-items: center;
-    }
-    
-
-    
 }
 
 
@@ -32,13 +12,17 @@
 .wya-adalabers{
     list-style: none;
     flex-direction: row;
-    margin: 0;
+    margin: 30px;
     padding: 0;
 }
 
 .wya-adalaber{
     align-items: center;
     justify-content: center;
+}
+
+@media all and (min-width: 768px){
+
 }
 
 .wya-img-adalaber{
@@ -57,6 +41,7 @@
 }
 
 .wya-social-networks{
+    margin: 20px;
     padding: 0;
     padding-bottom: 50px; 
     display: flex;

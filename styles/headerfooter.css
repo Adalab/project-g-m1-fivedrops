@@ -12,21 +12,22 @@
 .header {
     position: fixed;  
     width: 100vw; 
-    z-index:1;
+    z-index:2;
     top: 0; 
     left: 0; 
+    text-align: center;
 }
 
 
 .header-h1 {
-       background-color: #099d8d;
+            background-color: #099d8d;
             opacity: 0.95; 
             font-family: 'Rubik', sans-serif;
             font-size: 16px;
             color: white; 
             padding: 15px 0;
             line-height: 30px; 
-            text-align: center;     
+                 
 }
 
     .header-nav {
@@ -47,6 +48,10 @@
                     display: flex; 
                 }
 
+                .header-nav-li{
+                    margin-right:20px;
+                }
+
                 .header-nav-link {
                     color: white; 
                     text-decoration: none;
@@ -58,11 +63,11 @@
                     margin-right: 20px; 
                 }
 
-                .header-nav-link:last-child {
+                .header-nav-li:last-child {
                     margin-right: 0;
                 }
 
-@media all and (min-width:550px){
+@media all and (min-width:480px){
     .header {
         display: flex; 
         flex-wrap: wrap; 
@@ -76,8 +81,12 @@
         background-color:  #099d8d; 
         align-items: center; 
         margin-right:45px;
-        
         }
+
+        .header-nav-li{
+        margin-right: 20px;
+        }
+
 
         .header-h1{
             margin-left:45px;
@@ -90,32 +99,75 @@
     text-align: center; 
     color:#b8b8b9;
     font-family: 'Open Sans', sans-serif;
-  
+    
     /* top: 100;  */
-    
-    
 }
+
+
 .footer-nav-ul {
     list-style: none;
+    margin-top: 20px;
 }
 
 .footer-link-a {
     color: #54585a;
     text-decoration: none; 
     font-weight: bold;
-    display: block;
+
     
 }
 
 
 .footer-links {
-    padding-top: 20px; 
-    padding-bottom: 30px; 
+    margin-top: 20px; 
+    margin-bottom: 30px; 
 }
 
 .footer-logo {
     height:45px; 
     width: 115,9px; 
 }
+/* se pone así el logo en el footer? */
+
+@media all and (min-width:480px) {
+    .footer{
+        margin:0;
+        position:relative;
+        padding-bottom:40px;
+    }
+
+    .footer-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        padding:0 50px;
+    }
+
+    .footer-nav-ul{
+        margin:0;
+        padding:4px 0;
+        flex-direction:row;
+    }
+
+    .footer-nav-li {
+        text-align:right;
+        color: #54585a;
+        padding-top:8px;
+    }
+
+    .footer-logo {
+        display:flex;
+        flex-direction:column;
+        padding-left:40px;
+        position:absolute;
+        top:0;
+        left:0;
+        margin-top:40px;
+        
 
 
+
+    }
+
+
+}
