@@ -81,16 +81,16 @@
     .header-nav{
         background-color:  #099d8d; 
         align-items: center; 
-        margin-right:45px;
+        margin-right:100px;
         }
 
         .header-nav-li{
-        margin-right: 20px;
+        margin-right: 80px;
         }
 
 
         .header-h1{
-            margin-left:45px;
+            margin-left:100px;
         }
    }
 
@@ -147,7 +147,7 @@
 
     .footer-nav-ul{
         margin:0;
-        padding:4px 0;
+        padding:7px 0;
         flex-direction:row;
         
     }
@@ -166,7 +166,7 @@
         position:absolute;
         top:0;
         left:0;
-        margin-top:40px;
+        margin-top:45px;
         
 
 

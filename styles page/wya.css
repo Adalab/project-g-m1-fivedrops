@@ -37,7 +37,9 @@
 
 .wya-img-adalaber{
     width: 180px;
-    height: 180px;;
+    height: 180px;
+    border-radius: 4px;
+    border: solid 5px rgb(0, 0, 0, .08); 
 }
 
 .wya-name-adalaber{
