@@ -36,6 +36,7 @@ body {
   .hero__claimbox {
       transform: translateY(0%);
       margin-left: 50px;
+      max-width: 440px;
       background-color: rgba(255,255,255,0.8);
   }
 }
@@ -44,5 +45,6 @@ body {
 @media all and (min-width: 1200px) {
   .hero__claimbox {
       margin-left: 140px;
+      max-width: 570px;
   }
 }
