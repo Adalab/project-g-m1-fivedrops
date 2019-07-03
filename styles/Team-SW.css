@@ -1,12 +1,17 @@
-
-
-
 .team-background {
     background: white;
     margin: auto;
     padding: 90, 15, 15, 30;  
     text-align: center; 
 } 
+
+.container__team {
+    margin: 0 15px;
+}
+
+.container__team-sw {
+    margin: 0 15px;
+}
 
 .team-title {
     width: 89px;
