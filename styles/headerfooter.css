@@ -99,6 +99,9 @@
     text-align: center; 
     color:#b8b8b9;
     font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #b8b8b9; 
+      
+
     
     /* top: 100;  */
 }
@@ -106,7 +109,8 @@
 
 .footer-nav-ul {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 20px; 
+    padding-left: 0;
 }
 
 .footer-link-a {
@@ -126,6 +130,8 @@
 .footer-logo {
     height:45px; 
     width: 115,9px; 
+    margin-bottom: 45px; 
+    
     
     
     
@@ -154,6 +160,10 @@
         
     }
 
+    .footer-copy {
+        padding-top: 10px; 
+    }
+
     .footer-nav-li {
         text-align:right;
         color: #54585a;
@@ -168,7 +178,9 @@
         position:absolute;
         top:0;
         left:0;
-        margin-top:45px;
+        margin-top:65px;
+        margin-bottom: 50px; 
+
         
 
 
