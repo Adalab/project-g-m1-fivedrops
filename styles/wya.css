@@ -7,7 +7,7 @@
 
 .wya-title{
     color: #099d8d;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .wya-adalabers{
@@ -19,18 +19,39 @@
 }
 
 .wya-adalaber{
-    align-items: center;
-    justify-content: center;
+
+    
 }
 
 @media all and (min-width: 768px){
-    .wya-adalaber{
+    .wya-adalaber:nth-child(odd) {
         display: flex;
+        text-align: left;
+    }
+
+    .wya-adalaber:nth-child(even) {
+        display: flex;
+        text-align: right;
     }
 
     .wya-adalabers .wya-adalaber:nth-child(even)
     .wya-ada-img{
         order: 2;
+    }
+
+    .wya-container-bio-adalaber{
+        margin: 20px;
+    }
+    
+    .wya-name-adalaber{
+        padding-bottom: 10px;
+    }
+    
+    .wya-social-networks{
+        justify-content: flex-start;
+        /* display: none;
+        margin: 0;
+        padding-left:0;  */        
     }
 
 }
@@ -55,7 +76,7 @@
 .wya-social-networks{
     margin: 20px;
     padding: 0;
-    padding-bottom: 50px; 
+    /* padding-bottom: 50px;  */
     display: flex;
     flex-direction: row;
     list-style: none;
