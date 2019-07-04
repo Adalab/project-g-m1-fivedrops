@@ -14,29 +14,11 @@
 }
 
 
-.team_sw {
-    position:relative;
-}
-
-.team_anchor {
-    position:absolute;
-    top:-50px;
-    left:0;
-}
-
-
-.team-title {
-    width: 89px;
-    height: 45px;
-    margin: auto; 
-    padding: 70px;
-}
-
 .team-h2 {
     color:#099d8d; 
     text-align: center;
     font-size: 24px; 
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 15px; 
     font-family:'Rubik', sans-serif; 
 }
@@ -47,21 +29,20 @@
     margin: 15px; 
     border-block-end: 30px;
     font-family:'Open Sans';
-    padding-bottom: 30px; 
+    padding-bottom: 0px;
+    padding-top: 20px;  
 }
-
 
 .sw-h3 {
     color:#099d8d; 
     text-align: center; 
     font-family:'Rubik', sans-serif; 
     margin-top: 20px; 
-    padding-top: 20px; 
+    padding-top: 40px; 
 }
 
-
 .sw-text {
-    padding: 0px 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
     text-align: center;
     font-family:'Open Sans';
 }
@@ -71,7 +52,6 @@
     margin: auto;  
     padding: 75, 15, 15, 45;
 }
-
 
 .strengths {
     margin: auto;
@@ -93,13 +73,9 @@
 
 /* MEDIAQUERIE TABLET */
 @media all and (min-width:768px) {
-    /* .sw-background {
-        display:flex; 
-        justify-content: center; 
-        align-items: center; 
-        text-align: center;
-        position: relative;
-    } */
+    .team-background {
+        height: 303px;
+    }
     .container__team-sw {
         margin: 0 15px;
         display:flex; 
@@ -107,59 +83,113 @@
         align-items: center; 
         text-align: center;
         position: relative;
-    }
-
-    .sw-text-tablet-weaknesses {
-        padding-left: 0px;
-    }
-    .sw-text-tablet-strengths{
-        padding-right: 0px; 
-    }
-    .sw-h3 {
-        padding-left: 0px; 
+        height: 303px;
     }
 
     .container__team {
         margin: 0 45px;
+        height: 303px;
+        align-items: center; 
+        text-align: center;
     }
     
     .container__team-sw {
         margin: 0 45px;
     }
+
     .team-detail {  
         z-index: 1;
         position: relative;
         background-color: white; 
         transform: translateY(53%) rotate(45deg); 
     }
-  
+
+/* Error*/
+
+
+    .sw-text-tablet-weaknesses {
+        padding-left: 50px; 
+    }
+    
+    .sw-text-tablet-strengths {
+        padding-right: 0px;
+    }
+
+    .sw-h3-weaknesses {
+        padding-left: 50px;
+    }
+    .team-h2 {
+        padding-top: 50px; 
+        padding-bottom: 0px; 
+    }
+    .team-p {
+        padding-top: 30px;
+        padding-bottom: 0px;  
+    }
+    .team-title {
+        padding: 0px; 
+    }
+
+
 }
 
+/* Error*/
 /* MEDIAQUERIE LAPTOP */
 
-/* @media all and (min-width:1200px) {
-    .container__team {
-        margin: 0 138px;
+@media all and (min-width: 1200px) {
+    .team-background {
+        height: 303px;
     }
     .container__team-sw {
+        margin: 0 15px;
+        display:flex; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+        position: relative;
+        height: 303px;
+    }
+
+    .container__team {
         margin: 0 138px;
-    } */
-    /* .strengths {
-        margin: auto;
+        height: 303px;
+        align-items: center; 
         text-align: center;
-        width: 439px; 
-        height: 144px; 
+    }
+    
+    .container__team-sw {
+        margin: 0 138px;
+    }
+
+    .team-detail {  
+        z-index: 1;
+        // position: relative;
+        background-color: white; 
+        transform: translateY(53%) rotate(45deg); 
+    }
+
+    .sw-text-tablet-weaknesses {
+        padding-left: 120px; 
+    }
+    
+    .sw-text-tablet-strengths {
+        padding-right: 0px;
+    }
+
+    .sw-h3-weaknesses {
+        padding-left: 120px;
+    }
+    .team-h2 {
+        padding-top: 50px; 
+        padding-bottom: 0px; 
+    }
+    .team-p {
+        padding-top: 30px;
+        padding-bottom: 0px;  
+    }
+    .team-title {
+        padding: 0px; 
+    }
+
 }
-    .weaknesses {
-        margin: auto;
-        text-align: center;
-        width: 439px; 
-        height: 144px;
-} */
-/* .sw-background {
-    display:flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    position: relative;
-} */
+
