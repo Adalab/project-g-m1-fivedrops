@@ -9,9 +9,6 @@
     
 }
 
-
-
-
 .wya-container{
     margin: 30px 15px;
     text-align: center;
@@ -26,44 +23,10 @@
 
 .wya-adalabers{
     list-style: none;
-    flex-direction: row;
+    // flex-direction: row;
     margin: 30px;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-
-@media all and (min-width: 768px){
-    .wya-adalaber:nth-child(odd) {
-        display: flex;
-        text-align: left;
-    }
-
-    .wya-adalaber:nth-child(even) {
-        display: flex;
-        text-align: right;
-    }
-
-    .wya-adalabers .wya-adalaber:nth-child(even)
-    .wya-ada-img{
-        order: 2;
-    }
-
-    .wya-container-bio-adalaber{
-        margin: 20px;
-    }
-    
-    .wya-name-adalaber{
-        padding-bottom: 10px;
-    }
-    
-    .wya-social-networks{
-        justify-content: flex-start;
-        /* display: none;
-        margin: 0;
-        padding-left:0;  */        
-    }
-
 }
 
 .wya-img-adalaber{
@@ -95,9 +58,42 @@
     
 }
 
-.wya-social-network{
+.wya-iconos{
     flex-direction: column;
     color: #099d8d;
     padding: 10px;
     justify-content: center;
+}
+
+@media all and (min-width: 768px){
+    .wya-adalaber:nth-child(odd) {
+        display: flex;
+        text-align: left;
+    }
+
+    .wya-adalaber:nth-child(even) {
+        display: flex;
+        text-align: right;
+    }
+
+    .wya-adalabers .wya-adalaber:nth-child(even)
+    .wya-ada-img {
+        order: 2;
+    }
+
+    .wya-container-bio-adalaber{
+        margin: 20px;
+    }
+    
+    .wya-name-adalaber{
+        padding-bottom: 10px;
+    }
+    
+    .wya-social-networks{
+        justify-content: flex-start;
+        /* display: none;
+        margin: 0;
+        padding-left:0;  */        
+    }
+
 }
