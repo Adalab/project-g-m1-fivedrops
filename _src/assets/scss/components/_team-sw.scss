@@ -13,6 +13,27 @@
     margin: 0 15px;
 }
 
+// error
+.team_sw {
+    position:relative;
+}
+
+.team_anchor {
+    position:absolute;
+    top:-50px;
+    left:0;
+}
+
+
+.team-title {
+    width: 89px;
+    height: 45px;
+    margin: auto; 
+    padding: 70px;
+}
+
+// / error
+
 
 .team-h2 {
     color:#099d8d; 
@@ -158,7 +179,7 @@
 
     .team-detail {  
         z-index: 1;
-        position: relative;
+        // position: relative;
         background-color: white; 
         transform: translateY(53%) rotate(45deg); 
     }
@@ -188,29 +209,3 @@
 
 }
 
-/* @media all and (min-width:1200px) {
-    .container__team {
-        margin: 0 138px;
-    }
-    .container__team-sw {
-        margin: 0 138px;
-    } */
-    /* .strengths {
-        margin: auto;
-        text-align: center;
-        width: 439px; 
-        height: 144px; 
-}
-    .weaknesses {
-        margin: auto;
-        text-align: center;
-        width: 439px; 
-        height: 144px;
-} */
-/* .sw-background {
-    display:flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    position: relative;
-} */
