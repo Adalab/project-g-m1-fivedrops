@@ -1,3 +1,17 @@
+.wya {
+    position:relative;
+}
+
+.wya_anchor {
+    position:absolute;
+    top:-120px;
+    left:0;
+    
+}
+
+
+
+
 .wya-container{
     margin: 30px 15px;
     text-align: center;
@@ -18,10 +32,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.wya-adalaber{
-
-    
-}
 
 @media all and (min-width: 768px){
     .wya-adalaber:nth-child(odd) {
