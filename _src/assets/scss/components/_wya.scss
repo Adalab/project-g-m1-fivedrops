@@ -66,6 +66,16 @@
 }
 
 @media all and (min-width: 768px){
+
+    .wya-container-bio-adalaber{
+        margin: 20px;
+         
+    }
+    
+    .wya-name-adalaber{
+        padding-bottom: 10px;
+    }
+
     .wya-adalaber:nth-child(odd) {
         display: flex;
         text-align: left;
@@ -80,6 +90,18 @@
     .wya-ada-img {
         order: 2;
     }
+ 
+    .wya-social-networks{
+        justify-content: flex-end;
+        /* display: none;
+        margin: 0;
+        padding-left:0;  */        
+    }
+    .wya-social-networks:first-child{
+        justify-content: flex-start; 
+    }
+
+    
 
     .wya-container-bio-adalaber{
         margin: 20px;
@@ -87,13 +109,6 @@
     
     .wya-name-adalaber{
         padding-bottom: 10px;
-    }
-    
-    .wya-social-networks{
-        justify-content: flex-start;
-        /* display: none;
-        margin: 0;
-        padding-left:0;  */        
     }
 
 }
