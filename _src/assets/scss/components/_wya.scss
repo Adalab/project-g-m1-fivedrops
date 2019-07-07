@@ -29,25 +29,33 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.wya-adalaber {
+  margin-bottom:40px;
+}
+
 .wya-img-adalaber{
     width: 180px;
     height: 180px;
     border-radius: 4px;
     border: solid 5px rgba(0, 0, 0, 0.08);
+    margin-bottom:10px;
 }
 
 .wya-name-adalaber{
     color: black;
+    margin-bottom:10px;
 }
 
 .wya-bio-adalaber{
     align-items: center;
+    text-align: justify;
+    line-height: 1.2;
     color:#54585a;
     bottom: 30px;
 }
 
 .wya-social-networks{
-    margin: 20px;
+    margin: 15px 20px;
     padding: 0;
     /* padding-bottom: 50px;  */
     display: flex;
@@ -74,14 +82,14 @@
 @media all and (min-width: 768px){
     .wya-adalaber{
         display: flex;
+
     }
 
 
     .wya-social-networks{
         margin:0 -10px;
         padding:0;
-        display: flex;
-        justify-content: left;
+
     }
 
     .wya-container-bio-adalaber {
@@ -94,6 +102,7 @@
 
     .wya-bio-adalaber {
         margin-bottom:15px;
+
     }
 
     .wya-adalabers .wya-adalaber:nth-child(even)
@@ -105,10 +114,12 @@
     .wya-adalaber:nth-child(even) {
       text-align:right;
 
+
     }
 
     .wya-adalaber:nth-child(odd) {
       text-align: left;
+
 
   }
 
@@ -120,10 +131,18 @@
     }
 
     .wya-adalabers .wya-adalaber:nth-child(even)
-    .wya-social-networks {
-        margin:0px;
-        display:flex;
-        text-align:right;
+    .wya-container-bio-adalaber .wya-social-networks {
+        justify-content: flex-end;
+        margin:0 2px;
+        padding:0;
+    }
+
+
+    .wya-adalabers .wya-adalaber:nth-child(odd)
+    .wya-container-bio-adalaber .wya-social-networks {
+        justify-content: flex-start;
+        margin:0 -10px;
+        padding:0;
     }
 
 
