@@ -35,7 +35,7 @@
                 font-family: 'Rubik', sans-serif;
                 font-size: 15px;
                 color: white;
-                line-height: 30px;
+                line-height: 45px;
                 display: flex;
                 text-align: center;
                 justify-content: center;
@@ -45,10 +45,6 @@
                 .header-nav-ul {
                     list-style: none;
                     display: flex;
-                }
-
-                .header-nav-li{
-                    margin-right:20px;
                 }
 
                 .header-nav-link {
@@ -83,7 +79,7 @@
         }
 
         .header-nav-li{
-        margin-right: 80px;
+        margin-right: 25px;
         }
 
 
