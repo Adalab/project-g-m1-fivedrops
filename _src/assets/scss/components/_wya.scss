@@ -3,11 +3,11 @@
 }
 
 .wya_anchor {
-    position:absolute;
-    top:-120px;
-    left:0;
-
+  position:relative;
+  top:-110px;
+  left:0;
 }
+
 
 .wya-container{
     margin: 30px 15px;
@@ -71,14 +71,17 @@
     justify-content: center;
 }
 
-.wya_anchor {
-    top:-90px;
 
-
-}
 
 @media all and (min-width: 768px){
-    .wya-adalaber{
+  .wya_anchor {
+    position:relative;
+    top:-80px;
+    left:0;
+  }
+
+
+  .wya-adalaber{
         display: flex;
 
     }
