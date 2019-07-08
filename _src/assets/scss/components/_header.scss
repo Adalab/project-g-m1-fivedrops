@@ -4,47 +4,47 @@
   }
 
   body {
-    position: relative;     
+    position: relative;
 }
 
 .header {
-    position: fixed;  
-    width: 100vw; 
-    z-index:2;
-    top: 0; 
-    left: 0; 
+    position: fixed;
+    width: 100vw;
+    z-index:3;
+    top: 0;
+    left: 0;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 
 .header-h1 {
             background-color: #099d8d;
-            opacity: 0.95; 
+            opacity: 0.95;
             font-family: 'Rubik', sans-serif;
             font-size: 16px;
-            color: white; 
+            color: white;
             padding: 15px 0;
-            line-height: 30px; 
-                 
+            line-height: 30px;
+
 }
 
     .header-nav {
-                background-color: #14d9c4; 
-                opacity: 0.90; 
+                background-color: #14d9c4;
+                opacity: 0.90;
                 font-family: 'Rubik', sans-serif;
-                font-size: 15px; 
-                color: white; 
-                line-height: 30px; 
-                display: flex; 
-                text-align: center; 
-                justify-content: center; 
+                font-size: 15px;
+                color: white;
+                line-height: 30px;
+                display: flex;
+                text-align: center;
+                justify-content: center;
 
 }
 
                 .header-nav-ul {
-                    list-style: none; 
-                    display: flex; 
+                    list-style: none;
+                    display: flex;
                 }
 
                 .header-nav-li{
@@ -52,14 +52,14 @@
                 }
 
                 .header-nav-link {
-                    color: white; 
+                    color: white;
                     text-decoration: none;
-                    font-weight: bold; 
-                   
+                    font-weight: bold;
+
                 }
 
                 .header-nav-li {
-                    margin-right: 20px; 
+                    margin-right: 20px;
                 }
 
                 .header-nav-li:last-child {
@@ -68,17 +68,17 @@
 
 @media all and (min-width:768px){
     .header {
-        display: flex; 
-        flex-wrap: wrap; 
-        background: #099d8d; 
-        justify-content: space-between; 
-       
-         
+        display: flex;
+        flex-wrap: wrap;
+        background: #099d8d;
+        justify-content: space-between;
+
+
     }
 
     .header-nav{
-        background-color:  #099d8d; 
-        align-items: center; 
+        background-color:  #099d8d;
+        align-items: center;
         margin-right:100px;
         }
 
