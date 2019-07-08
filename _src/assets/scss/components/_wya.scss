@@ -48,7 +48,6 @@
 
 .wya-bio-adalaber{
     align-items: center;
-    text-align: justify;
     line-height: 1.2;
     color:#54585a;
     bottom: 30px;
@@ -57,7 +56,6 @@
 .wya-social-networks{
     margin: 15px 20px;
     padding: 0;
-    /* padding-bottom: 50px;  */
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -149,53 +147,3 @@
 
 }
 
-
-/* @media all and (min-width: 768px){
-
-    .wya-container-bio-adalaber{
-        margin: 20px;
-
-    }
-      .wya-adalaber:nth-child(even) {
-        display: flex;
-        text-align: right;
-    }
-
-    .wya-name-adalaber{
-        padding-bottom: 10px;
-    }
-
-
-
-    .wya-adalaber:nth-child(odd) {
-        display: flex;
-        text-align: left;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-
-    .wya-adalabers .wya-adalaber:nth-child(even)
-    .wya-ada-img {
-        order: 2;
-    }
-
-    .wya-social-networks{
-        justify-content: flex-end;
-
-    }
-    .wya-social-networks:first-child{
-        justify-content: flex-start;
-    }
-
-
-
-    .wya-container-bio-adalaber{
-        margin: 20px;
-    }
-
-    .wya-name-adalaber{
-        padding-bottom: 10px;
-    }
-
-} */
