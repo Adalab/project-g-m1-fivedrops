@@ -63,6 +63,9 @@ body {
 .input-name {
   margin-top: 7px;
   margin-bottom: 15px;
+  height: 45px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 
@@ -71,16 +74,24 @@ body {
   color: #54585a;
   margin-top: 7px;
   margin-bottom: 15px;
+  height: 45px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .input-telf {
   margin-top: 7px;
   margin-bottom: 15px;
+  height: 45px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .input-mensaje {
   margin-top: 7px;
   margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .button_container {
@@ -106,10 +117,7 @@ body {
   margin: auto;
   }
 
-.data__mailtelf {
-  display: flex;
-  justify-content: space-between;
-  }
+
 }
 
 @media all and(min-width:1200px) {
@@ -117,5 +125,20 @@ body {
     max-width: 600px;
     margin: auto;
     }
+  .data__mailtelf {
+      display: flex;
+      justify-content: space-between;
+      }
+  .input-mail {
+    width: 365px;
+
+  }
+  .input-telf {
+    width: 162px;
+
+
+
+
+  }
   }
 
