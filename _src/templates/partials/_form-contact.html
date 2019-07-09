@@ -1,33 +1,39 @@
 <section class="form">
   <div class="info">
-    <h2>Contacto</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates doloremque, architecto enim commodi nobis
-      voluptatibus odit quibusdam quam beatae quae magni. Architecto iusto ducimus quo suscipit voluptatem quidem ad ex?
-    </p>
-    <small>Todos los campos marcados con * son obligatorios.</small>
+    <h2 class="info__h2">Contacto</h2>
+    <div class="info__text-container">
+      <p class="info__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates doloremque, architecto
+        enim commodi nobis voluptatibus odit quibusdam quam beatae quae magni. Architecto iusto ducimus quo suscipit
+        voluptatem quidem ad
+        ex?
+      </p>
+      <small class="info__small">Todos los campos marcados con * son obligatorios.</small>
+    </div>
   </div>
 
   <div class="data">
     <form action="" method="POST">
-      <div class="div">
+      <div class="data__name">
         <label for="name">Nombre completo *</label>
-        <input placeholder="Nombre..." type="text" name="name" id="name" required>
+        <input placeholder="Nombre..." class="input-name" type="text" name="name" id="name" required>
       </div>
 
-      <div class="div">
+      <div class="data__mailtelf">
 
-        <div class="div">
+        <div class="data__mailtelf-mail">
           <label for="email">Email *</label>
-          <input value="nombre.apellidos@mail.com" type="email" name="email" id="email" required></div>
-        <div class="div">
+          <input value="nombre.apellidos@mail.com"  class="input-mail" type="email" name="email" id="email" required></div>
+        <div class="data__mailtelf-telf">
           <label for="telephone">Teléfono</label>
-          <input placeholder="Ej: 123456789" type="number" name="telephone" id="telephone"></div>
+          <input placeholder="Ej: 123456789" class="input-telf" type="number" name="telephone" id="telephone"></div>
       </div>
 
-      <div class="div"><label for="mensaje">Mensaje *</label>
-        <textarea placeholder="¿Qué necesitas?" type="text" name="mensaje" id="mensaje" rows="8" cols="20"
+      <div class="data__mensaje"><label for="mensaje">Mensaje *</label>
+        <textarea placeholder="¿Qué necesitas?"  class="input-mensaje" type="text" name="mensaje" id="mensaje" rows="8" cols="20"
           required></textarea></div>
-
+      <div class="button__container">
+          <button class="send">Enviar</button>
+      </div>
     </form>
   </div>
 
