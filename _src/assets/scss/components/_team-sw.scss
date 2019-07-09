@@ -114,6 +114,7 @@
 
     .container__team-sw {
         margin: 0 45px;
+
     }
 
     .team-detail {
@@ -158,27 +159,34 @@
 @media all and (min-width: 1200px) {
     .team-background {
         height: 303px;
+
     }
     .container__team-sw {
-        margin: 0 15px;
+        // margin: 0 15px;
         display:flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         position: relative;
         height: 303px;
+        margin: 0 auto;
+        width: 924px;
     }
 
     .container__team {
-        margin: 0 138px;
-        height: 303px;
+        // margin: 0 138px;
+        // height: 303px;
         align-items: center;
         text-align: center;
+        margin: 0 auto;
+        width: 924px;
+
     }
 
-    .container__team-sw {
-        margin: 0 138px;
-    }
+    // .container__team-sw {
+    //     margin: 0 auto;
+    //     width: 924;
+    // }
 
     .team-detail {
         z-index: 1;
