@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   transform: translateY(50%);
-  
+
 }
 
 .hero__claim {
@@ -29,6 +29,7 @@ body {
   padding: 10px;
 }
 
+
 /* MEDIAQUERIE TABLET */
 @media all and (min-width: 768px) {
   .hero__background {
@@ -36,6 +37,7 @@ body {
   }
   .hero__claimbox {
       transform: translateY(0%);
+      transform: translateX(-15vw);
       max-width: 440px;
       background-color: rgba(255,255,255,0.8);
   }
@@ -44,6 +46,7 @@ body {
 /* MEDIAQUERIE DESKTOP */
 @media all and (min-width: 1200px) {
   .hero__claimbox {
+      transform: translateX(-10vw);
       margin-left: 140px;
       max-width: 570px;
   }
