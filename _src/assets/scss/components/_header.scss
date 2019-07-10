@@ -24,6 +24,14 @@
     
   }
 
+  .header-nav-ul{
+    transition: transform ease .8s;
+  }
+
+  .header-nav-li:hover{
+    transform: scale(1.1);
+  }
+
   .logofd {
     width: 200px;
   }
