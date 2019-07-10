@@ -9,8 +9,9 @@
 }
 
 
-.wya-container{
-    margin: 30px 15px;
+.wya .central-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     /* font-family: 'Open Sans', sans-serif; */
 }
@@ -24,8 +25,6 @@
 
 .wya-adalabers{
     list-style: none;
-    // flex-direction: row;
-    margin: 30px;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
