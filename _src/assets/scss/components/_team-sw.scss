@@ -55,7 +55,7 @@
 }
 
 .sw-text {
-    padding: 10px 15px 15px 15px;
+    padding: 10px 0 15px;
     text-align: center;
     font-family:'Open Sans';
 }
@@ -95,14 +95,12 @@
   .team-background {
         height: 303px;
     }
-    .container__team-sw {
-        margin: 0 15px;
+    .sw-background .central-container {
         display:flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         position: relative;
-        height: 303px;
     }
 
     .container__team {
