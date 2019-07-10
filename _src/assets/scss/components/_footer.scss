@@ -2,7 +2,8 @@
   body {
     position: relative;
 }
-   /* FOOTER */
+
+/* FOOTER */
 
 .footer {
     font-size: 14px;
@@ -12,6 +13,9 @@
     border-top: 1px solid #b8b8b9;
 }
 
+.footer-nav{
+    margin:16px;
+}
 
 .footer-nav-ul {
     list-style: none;
@@ -33,7 +37,7 @@
 .footer-logo {
     height:45px;
     width: 115,9px;
-
+}
 
 .footer__container {
     margin-right:15px;
@@ -41,8 +45,6 @@
 }
 
 
-}
-/* se pone así el logo en el footer? */
 
 @media all and (min-width:768px) {
 
@@ -68,9 +70,6 @@
     .footer-nav-ul{
         margin:0;
         padding:7px 0;
-
-        
-
     }
 
     .footer-copy {
@@ -85,33 +84,24 @@
     }
 
     .footer-logo {
-        
+        margin-top: 16px;
     }
 
     .footer__container {
-      margin-right:45px;
-      margin-left:45px;
+        margin-right:45px;
+        margin-left:45px;
     }
-
 
 }
 
 
 @media all and (min-width:1200px) {
 
-  .footer-logo {
-    position:absolute;
-    top:0;
-    left:300px;
-
-}
-
-  .footer__container {
-    margin-right:auto;
-    margin-left:auto;
-    width:924px;
-
-  }
-
+    .footer__container {
+        margin-right:auto;
+        margin-left:auto;
+        width:924px;
+    }
+    
 }
 
