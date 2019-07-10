@@ -15,9 +15,9 @@
 
             <nav class="header-nav">
                 <ul class="header-nav-ul">
-                    <li class="header-nav-li"> <a class="header-nav-link" href="#team_link">Equipo</a> 
+                    <li class="header-nav-li"> <a class="header-nav-link" href="index.html#team_link">Equipo</a> 
                     </li>
-                    <li class="header-nav-li"> <a class="header-nav-link" href="#wya_link">Quienes somos</a> 
+                    <li class="header-nav-li"> <a class="header-nav-link" href="index.html#wya_link">Quienes somos</a> 
                     </li>
                     <li class="header-nav-li"> <a class="header-nav-link" href="#">Contacto</a> 
                     </li>
@@ -26,47 +26,44 @@
         </header>
         <main>
             <section class="hero__section">
-                <div class="hero__background">
-                    <div class="hero__claimbox">
-                         <h2 class="hero__claim">“Individualmente, somos una gota. Juntas, somos un océano.”, Ryunosuke
-                Satoro
-            </h2>
-
-                    </div>
-                </div>
+                <div class="hero__background"></div>
             </section>
             <section class="form">
                 <div class="info">
-                     <h2>Contacto</h2>
+                     <h2 class="info__h2">Contacto</h2>
 
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates doloremque,
-                        architecto enim commodi nobis voluptatibus odit quibusdam quam beatae quae
-                        magni. Architecto iusto ducimus quo suscipit voluptatem quidem ad ex?</p> <small>Todos los campos marcados con * son obligatorios.</small>
+                    <div class="info__text-container">
+                        <p class="info__p">¿Quieres saber más? ¿Ponerte en contacto con nosotras? Rellena este formulario
+                            y estaremos encantadas de conocerte.</p> <small class="info__small">Todos los campos marcados con * son obligatorios.</small>
 
+                    </div>
                 </div>
                 <div class="data">
                     <form action="" method="POST">
-                        <div class="div">
+                        <div class="data__name">
                             <label for="name">Nombre completo *</label>
-                            <input placeholder="Nombre..." type="text" name="name"
-                            id="name" required>
+                            <input placeholder="Nombre..." class="input-name"
+                            type="text" name="name" id="name" required>
                         </div>
-                        <div class="div">
-                            <div class="div">
+                        <div class="data__mailtelf">
+                            <div class="data__mailtelf-mail">
                                 <label for="email">Email *</label>
-                                <input value="nombre.apellidos@mail.com" type="email" name="email"
-                                id="email" required>
+                                <input value="nombre.apellidos@mail.com" class="input-mail"
+                                type="email" name="email" id="email" required>
                             </div>
-                            <div class="div">
+                            <div class="data__mailtelf-telf">
                                 <label for="telephone">Teléfono</label>
-                                <input placeholder="Ej: 123456789" type="number" name="telephone"
-                                id="telephone">
+                                <input placeholder="Ej: 123456789" class="input-telf"
+                                type="number" name="telephone" id="telephone">
                             </div>
                         </div>
-                        <div class="div">
+                        <div class="data__mensaje">
                             <label for="mensaje">Mensaje *</label>
-                            <textarea placeholder="¿Qué necesitas?" type="text" name="mensaje"
-                            id="mensaje" rows="8" cols="20" required></textarea>
+                            <textarea placeholder="¿Qué necesitas?" class="input-mensaje"
+                            type="text" name="mensaje" id="mensaje" rows="8" cols="20" required></textarea>
+                        </div>
+                        <div class="button__container">
+                            <button class="send">Enviar</button>
                         </div>
                     </form>
                 </div>
