@@ -43,7 +43,7 @@
 
                     <div class="info__text-container">
                         <p class="info__p">¿Quieres saber más? ¿Ponerte en contacto con nosotras? Rellena este formulario
-                            y estaremos encantadas de conocerte.</p> <small class="info__small">Todos los campos marcados con * son obligatorios.</small>
+                            y estaremos encantadas de conocerte.</p> <small class="info__small">Todos los campos marcados con <span class="form__asterisc">*</span> son obligatorios.</small>
 
                     </div>
                 </div>
@@ -51,15 +51,19 @@
                     <form action="https://formspree.io/fer.rodriguezrocio@gmail.com" method="POST"
                     />
                     <div class="data__name">
-                        <label for="name">Nombre completo *</label>
-                        <input placeholder="Nombre..." class="input-name"
-                        type="text" name="name" id="name" required>
+                        <label for="name">Nombre completo <span class="form__asterisc">*</span>
+
+                        </label>
+                        <input placeholder="Nombre..." class="input-name" type="text" name="name"
+                        id="name" required>
                     </div>
                     <div class="data__mailtelf">
                         <div class="data__mailtelf-mail">
-                            <label for="email">Email *</label>
-                            <input value="nombre.apellidos@mail.com" class="input-mail"
-                            type="email" name="email" id="email" required>
+                            <label for="email">Email <span class="form__asterisc">*</span>
+
+                            </label>
+                            <input value="nombre.apellidos@mail.com" class="input-mail" type="email"
+                            name="email" id="email" required>
                         </div>
                         <div class="data__mailtelf-telf">
                             <label for="telephone">Teléfono</label>
@@ -68,9 +72,11 @@
                         </div>
                     </div>
                     <div class="data__mensaje">
-                        <label for="mensaje">Mensaje *</label>
-                        <textarea placeholder="¿Qué necesitas?" class="input-mensaje"
-                        type="text" name="mensaje" id="mensaje" rows="8" cols="20" required></textarea>
+                        <label for="mensaje">Mensaje <span class="form__asterisc">*</span>
+
+                        </label>
+                        <textarea placeholder="¿Qué necesitas?" class="input-mensaje" type="text"
+                        name="mensaje" id="mensaje" rows="8" cols="20" required></textarea>
                     </div>
                     <div class="button__container">
                         <button class="send">Enviar</button>
